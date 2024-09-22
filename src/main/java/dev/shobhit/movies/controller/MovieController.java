@@ -13,6 +13,7 @@ import java.util.Optional;
 
 @RequestMapping("/api/v1/movies")
 @RestController
+@CrossOrigin(origins = "*")
 public class MovieController {
 
     @Autowired
